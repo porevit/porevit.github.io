@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content />
+    <meta name="author" content="что-то" />
+    <meta name="generator" content="hugo 0.98.0" />
+    <title>Поревiт</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/carousel.css" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="apple-touch-icon" href="image\logo.jpg" sizes="180*180" />
+    <link rel="icon" href="image\logo.jpg" sizes="32*32" type="image/jpg" />
+    <link rel="icon" href="image\logo.jpg" sizes="16*16" type="image/jpg" />
+    <link rel="manifest" href="image\logo.jpg" />
+    <link rel="mask-icon" href="image\logo.jpg" />
+    <meta name="theme-color" content="#712cf9" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span style="vertical-align: inherit">
+              <span style="vertical-align: inherit"> Поревіт </span>
+            </span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="colapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Переключить навигацию"
+          >
+            <span class="nvbar-toggler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span style="vertical-align: inherit">
+                    <span style="vertical-align: inherit">Про нас</span>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#assist">
+                  <span style="vertical-align: inherit">
+                    <span style="vertical-align: inherit">Допомога</span>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">
+                  <span style="vertical-align: inherit">
+                    <span style="vertical-align: inherit">Контакти</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="first-slide"
+              src="img\volo.jpg"
+              width="593" height="336"
+              alt="First slide"
+            />
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Sign up today</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="second-slide"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              alt="Second slide"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Learn more</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="third-slide"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              alt="Third slide"
+            />
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>One more for good measure.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Browse gallery</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="container marketing">
+        <!-- <div class="row">
+          <div class="col-lg-4">
+            <div>
+              <img src="img\image1.jpg" class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140" alt="">
+            </div>
+            <h2 class="fw-normal">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">Заголовок</span>
+              </span>
+            </h2>
+            <p>
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit"
+                  >Текст для трех столбиков текста под каруселью</span
+                >
+                <span style="vertical-align: inherit">Это первая колонка.</span>
+              </span>
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">
+                <span style="vertical-align: inherit">
+                  <span style="vertical-align: inherit"
+                    >Посмотреть детали "</span
+                  >
+                </span>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Заполнитель: 140&nbsp;x&nbsp;140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+            <h2 class="fw-normal">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">Заголовок1</span>
+              </span>
+            </h2>
+            <p>
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit"
+                  >Часть под заголовком</span
+                >
+                <span style="vertical-align: inherit">Второй столбик</span>
+              </span>
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">
+                <span style="vertical-align: inherit">
+                  <span style="vertical-align: inherit">Посмотреть</span>
+                </span>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Заполнитель: 140&nbsp;x&nbsp;140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+            <h2 class="fw-normal">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">Заголовок 2</span>
+              </span>
+            </h2>
+            <p>
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit"
+                  >Текст третьей колонки</span
+                >
+              </span>
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">
+                <span style="vertical-align: inherit">
+                  <span style="vertical-align: inherit">Посмотреть 2</span>
+                </span>
+              </a>
+            </p>
+          </div>
+        </div> -->
+        <!-- <hr class="featurette-divider" /> -->
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit"
+                  >Заголовок первой фотки</span
+                >
+              </span>
+              <span class="text-muted"> </span>
+            </h2>
+            <p class="lead">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">Описание под фото 1</span>
+              </span>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Заполнитель: 500&nbsp;x&nbsp;500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">Описание под фото 2</span>
+              </span>
+              <span class="text-muted"> </span>
+            </h2>
+            <p class="lead">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">описание под фото 2</span>
+              </span>
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div>
+              <img src="img\bootss.jpg" width="373" height="400" alt="boots for women" /> 
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">Описание под фото 3</span>
+              </span>
+              <span class="text-muted"> </span>
+            </h2>
+            <p class="lead">
+              <span style="vertical-align: inherit">
+                <span style="vertical-align: inherit">Описание под фото 3</span>
+              </span>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div>
+              <img src="img\boots.jpg" width="373" height="400" alt="boots for women" /> 
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- cards
+        
+        <div class="container">
+          <div class="left">
+            <h1 class="text-center">Карта банка</h1>
+            <div class="card-wrapper">
+              <div class="card-back">
+                <div class="card-back-line"></div>
+                <input type="text" id="cvv">
+              </div>
+              <div id="checkout-container"></div>
+              <div class="card-front">
+                <img src="" alt="" class="card-image">
+                <img src="" alt="" class="card-logo">
+                <input type="text" id="card-number">
+                <input type="text" id="card-to-month">
+                <input type="text" id="card-to-year">
+              </div>
+            </div>
+          </div>
+        </div>
+        <br> -->
+          <!-- contacts card -->
+          <div class="card card-default" id="card_contacts">
+            <div
+              id="contacts"
+              class="panel-collapse collapse show"
+              aria-expanded="true"
+            >
+              <ul class="list-group pull-down" id="contact-list">
+                <li class="list-group-item">
+                  <div class="row w-100">
+                    <div class="col-12 col-sm-6 col-md-3 px-0">
+                      <img
+                        src="image\logo.jpg"
+                        alt="dog"
+                        class="rounded-circle mx-auto d-block img-fluid"
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-sm-6 col-md-9 text-center text-sm-left"
+                    >
+                      <label class="name lead">Менеджер</label>
+                      <br />
+                      <span
+                        class="fa-solid fa-map-location-dot"
+                        data-toggle="tooltip"
+                        title=""
+                        data-original-title="5842 Hillcrest Rd"
+                      ></span>
+                      <span class="text-muted">Україна,Київ</span>
+                      <br />
+                      <br />
+                      <span
+                        class="fa fa-phone fa-fw text-muted"
+                        data-toggle="tooltip"
+                        title=""
+                        data-original-title="(870) 288-4149"
+                      ></span>
+                      <span class="text-muted small">(870) 288-4149</span>
+                      <br />
+                      <br />
+                      <span
+                        class="fa-solid fa-paper-plane"
+                        data-toggle="tooltip"
+                        data-original-title=""
+                        title=""
+                      ></span>
+                      <span class="text-muted small text-truncate"
+                        >телеграм канал</span
+                      >
+                      <br />
+                      <br />
+                      <!-- Instagram -->
+                      <span
+                        class="fab fa-instagram"
+                        data-toggle="tooltip"
+                        data-original-title=""
+                        title=""
+                      ></span>
+                      <span class="text-muted small">Инста</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row w-100">
+                    <div class="col-12 col-sm-6 col-md-3 px-0">
+                      <img
+                        src="image\logo.jpg"
+                        alt="Seth Frazier"
+                        class="img-fluid rounded-circle d-block mx-auto"
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-sm-6 col-md-9 text-center text-sm-left"
+                    >
+                      <span class="name lead">Менеджер</span>
+                      <br />
+                      <span
+                        class="fa-solid fa-map-location-dot"
+                        data-toggle="tooltip"
+                        title=""
+                        data-original-title="7396 E North St"
+                      ></span>
+                      <span class="text-muted">Україна,Київ</span>
+                      <br />
+                      <br />
+                      <span
+                        class="fa fa-phone fa-fw text-muted"
+                        data-toggle="tooltip"
+                        title=""
+                        data-original-title="(560) 180-4143"
+                      ></span>
+                      <span class="text-muted small">(560) 180-4143</span>
+                      <br />
+                      <br />
+                      <span
+                        class="fa-solid fa-paper-plane"
+                        data-toggle="tooltip"
+                        title=""
+                        data-original-title="seth.frazier@example.com"
+                      ></span>
+                      <span class="text-muted small text-truncate"
+                        >Телеграм</span
+                      >
+                      <br />
+                      <br />
+                      <!-- Instagram -->
+                      <span
+                        class="fab fa-instagram"
+                        data-toggle="tooltip"
+                        data-original-title=""
+                        title=""
+                      ></span>
+                      <span class="text-muted small">Инста</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <!--/contacts list-->
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+      </div>
+      <footer class="container">
+        <p class="float-end">
+          <a href="#">
+            <span style="vertical-align: inherit">
+              <span style="vertical-align: inherit">Вернуться к вершине</span>
+            </span>
+          </a>
+        </p>
+        <p>
+          <span style="vertical-align: inherit">
+            <span style="vertical-align: inherit"
+              >название волонтерского движа since 2022</span
+            >
+          </span>
+        </p>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <div class="goog-te-spinner-pos">
+      <div class="goog-te-spinner-animation">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="goog-te-spinner"
+          width="96px"
+          height="96px"
+          viewBox="0 0 66 66"
+        >
+          <circle
+            class="goog-te-spinner-path"
+            fill="none"
+            stroke-width="6"
+            stroke-linecap="round"
+            cx="33"
+            cy="33"
+            r="30"
+          ></circle>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
